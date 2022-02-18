@@ -10,3 +10,4 @@ class TestTodoserver(unittest.TestCase):
         self.assertEqual(200, resp.status_code)
         data = json.loads(resp.data.decode("utf-8"))
         self.assertEqual([], data)
+
