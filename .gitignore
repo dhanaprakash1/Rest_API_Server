@@ -1,0 +1,34 @@
+# Ignore Pycharm Configuration
+.idea/
+
+
+# linux
+local.env
+local.env.*
+foo[-.]*
+bar[-.]*
+baz[-.]*
+foo
+bar
+baz
+_old
+venv
+todo
+
+# emacs
+*~
+.#*
+\#*#
+
+# python
+*.pyc
+__pychache__
+
+# for OSX
+.DS_Store
+
+# for django
+db.sqlite3
+creds.py
+
+
