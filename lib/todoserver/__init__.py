@@ -1,4 +1,4 @@
 # todoserver/__init__.py
 
-from .app import app, MEMORY
+from .app import app
 
